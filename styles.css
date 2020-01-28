@@ -1,23 +1,43 @@
 .image {
-    background-size: cover;
+    /* background-size: cover; */
+     /* filter: blur(1px); */
+}
 
-
- }
-/*
  body {
-   background-image:
+
+   background-image: url(codeimage.jpg);
    background-repeat: no-repeat;
    background-attachment: fixed;
-   background-size: cover; */
- /* } */
+   background-size: cover;
+
+
+ }
+h1 {
+    text-align: center;
+    color: white;
+}
+
+ h2 {
+    text-align: center;
+    font-weight:normal; 
+    color: white;
+    text
+  }
+
 
  #survey-form {
+   color: white;
    margin: 0 auto;
    width: 600px;
-   padding: 1em;
+   padding: 2em;
    border: 1px solid #CCC;
    border-radius: 1em;
+   margin-top: 200px;
+   background-color: green;
+
+
  }
+
  #title {
    margin: 0 auto;
    width: 400px;
