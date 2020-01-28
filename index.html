@@ -6,17 +6,127 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>title</title>
-  <link rel="javascript" href="script.js"></script>
+  <link rel="javascript" href="script.js">
   <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=font1|font2|etc" type="text/css"> -->
   <link rel="stylesheet" href="styles.css" type="text/css">
   </head>
   <body>
 
+        <h1 id="title"> Are you addicted to Codewars?</h1>
 
-    </div>
 
-  <h1> heading<h1>
-  </body>
+        <!--  <img id="image"
+                 src="https://res.cloudinary.com/dblnwcqqz/image/upload/v1580177445/passed_w3oimj.jpg"> -->
+
+        <p id="description"> Think you may have an addiction problem?<br>
+        Have you ever asked yourself “am i a Codewars addict?”<br>
+        Take the Survey below to identify if, and how addicted you are to Codewars. </p>
+
+        
+        <form id="survey-form">
+          <ul>
+            <li>
+              <label for="name" id="name-label">name:<br></label>
+              <input type ="text" id="name"  placeholder="enter your full name" required </input>
+            </li>
+            <li>
+              <label for="email" id="email-label">email:<br></label>
+              <input type ="email" id="email" placeholder="enter a valid email" required </input>
+            </li>
+
+            </li>
+            <li>
+              <label for="number" id="number-label" >age_:<br></label>
+              <input type="number"   id="number"  placeholder="enter your age"  min="3" max="110" required </input>
+            </li>
+
+          <p>Which option best describes your current profile?</p>
+          <select id="dropdown">
+        <option selected="selected">Select current profile</option>
+          <option>student </option>
+          <option>unemployed </option>
+          <option>employed </option>
+          <option>self-employed</option>
+          <option>retired</option>
+          <option>full-time learner</option>
+          <option>other</option>
+        </select>
+
+          <p>How many hours per week do you spend on Codewars?</p>
+          <select id="dropdown2">
+        <option selected="selected">Select how many hours</option>
+          <option>00-05</option>
+          <option>05-10</option>
+          <option>10-15</option>
+          <option>15-20</option>
+          <option>20-25</option>
+          <option>25-30</option>
+          <option>30-35</option>
+          <option>35-40<option>
+          <option>40-45</option>
+          <option>45-50</option>
+          <option>50-55</option>
+          <option>55-60</option>
+          <option>60-65</option>
+          <option>65-70</option>
+          <option>70-75</option>
+          <option>80-85</option>
+          <option>over 80</option>
+        </select>
+
+
+          <p>Do you think you may be addicted to Codewars?</p>
+
+        <div>
+          <input type="radio" id="yes" name="question1" value="yes"
+                 >
+          <label for="yes">Yes</label>
+        </div>
+
+        <div>
+            <input type="radio" id="No" name="question1" value="No">
+          <label for="No">No</label>
+
+        </div>
+
+        <div>
+        <input type="radio" id="Maybe" name="question1" value="Maybe">
+          <label for="Maybe">Maybe</label>
+        </div>
+
+         <div>
+          <input type="radio" id="Not sure" name="question1" value="Not sure">
+          <label for="Not sure">Not sure</label>
+        </div>
+
+        <div>
+          <p> Chose from the following options that describes your Codewars habbits<br> <font size="2"> (Check all that apply)</font><p>
+         </div>
+
+         <div>
+          <input type="checkbox" name="Statement1" value="1"> Have you ever neglected your family duties to go on Codewars?<br>
+          <input type="checkbox" name="Statement2" value="2"> Have you ever missed work or an appointment to go on Codewars ?</br>
+          <input type="checkbox" name="Statement3" value="3"> Do you sleep less that 6 hours per night to make more time for Codewars?</br>
+          <input type="checkbox" name="Statement4" value="4"> Have you ever gone without sleep for more than 24 hours because of Codewars?</br>
+          <input type="checkbox" name="Statement5" value="5"> Have you ever been agressive or violent from frustration due to Codewars?</br>
+          <input type="checkbox" name="Statement6" value="6"> Have you ever neglected to take a bath or shower because of Codewars?</br>
+          <input type="checkbox" name="Statement7" value="7"> Do you find yourself thinking about Codewars, when you are not on Codewars?</br>
+          <input type="checkbox" name="Statement8" value="8"> Do you get slightly obsessed about your Kyu ranking on Codewars?</br>
+        </div>
+
+        <div>
+          <p> Any additional information about your Codewars habbits please let us know</p>
+
+        <div>
+          <textarea name="comments" id="comments" rows="8" cols="80"> Enter your comments here</textarea>
+
+
+              <br> <br><button id="submit" type="submit">Submit</button>
+
+          </ul>
+            </form>
+
+</body>
 </html>
 
 
