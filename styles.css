@@ -6,15 +6,17 @@
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-size: cover;
+}
 
-
- }
 h1 {
     text-align: center;
     color: white;
     font-size: 50px;
-    text-shadow: 2px 2px black;
+    text-shadow: 3px 2px black;
     font-size: 60px;
+    margin: 0 auto;
+    width: 400px;
+    padding: 1.5em;
 }
 
 #description {
@@ -44,17 +46,25 @@ h1 {
 }
 
 name-label{
-    font-size: 40px:
+    font-size: 40px;
 }
 
+.text-box {
+width: 600px;
+height: 50px;
+margin: 20px 0;
+color: pink;
+}
+
+/*
 input[type=text] {
     width: 600px;
     height: 50px;
     /* padding: 12px 20px; */
-    margin: 20px 0;
+    /* margin: 20px 0; */
 
 
-}
+/* }
 input[type=email] {
     width: 600px;
     height: 50px;
@@ -64,24 +74,24 @@ input[type=email] {
 input[type=number] {
     width: 600px;
     height: 50px;
-    margin: 20px 0;
-}
-label [for=name] {
+    margin: 20px 0; */
+/* } */
+
+
+/* label [for=name] {
     font-size: 30px;
-}
+} */ *
 
 
 
- #title {
-   margin: 0 auto;
-   width: 400px;
-   padding: 1.5em;
- }
+
 
 
  #placeholder {
    color: red; 
  }
+
+
  li {
      list-style-type: none;
  }
