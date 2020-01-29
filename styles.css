@@ -1,11 +1,8 @@
-.image {
-    /* background-size: cover; */
-     /* filter: blur(1px); */
-}
+
 
  body {
 
-   background-image: url(codeimage.jpg);
+   background-image: url(codeimagec.jpg);
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-size: cover;
@@ -15,36 +12,70 @@
 h1 {
     text-align: center;
     color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+    font-size: 60px;
 }
 
- h2 {
+#description {
     text-align: center;
-    font-weight:normal; 
+    font-weight:normal;
     color: white;
-    text
-  }
+    font-size: 40px;
+    margin-top: 5px;
+    position: relative;
+    bottom: 40px;
+    text-shadow: 2px 2px black;
 
-
- #survey-form {
+}
+#survey-form {
+   font-size: 20px;
    color: white;
    margin: 0 auto;
-   width: 600px;
+   width: 800px;
    padding: 2em;
    border: 1px solid #CCC;
    border-radius: 1em;
-   margin-top: 200px;
-   background-color: green;
+   margin-top: 50px;
+   background-color: rgb(18, 128, 31);
+   opacity: 0.9;
+   position: relative;
+   /* text-align: left;  */
+}
+
+name-label{
+    font-size: 40px:
+}
+
+input[type=text] {
+    width: 600px;
+    height: 50px;
+    /* padding: 12px 20px; */
+    margin: 20px 0;
 
 
- }
+}
+input[type=email] {
+    width: 600px;
+    height: 50px;
+    margin: 20px 0;
+}
+
+input[type=number] {
+    width: 600px;
+    height: 50px;
+    margin: 20px 0;
+}
+label [for=name] {
+    font-size: 30px;
+}
+
+
 
  #title {
    margin: 0 auto;
    width: 400px;
    padding: 1.5em;
- }
- comments {
-   color: pink;
  }
 
 
