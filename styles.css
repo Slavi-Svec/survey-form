@@ -41,18 +41,32 @@ body {
    position: relative;
 }
 
-#name-label {
-    font-size: 2.5rem;
+.form-title {
+    font-size: 2rem;
 }
 
 .input {
     width: 37.5rem;
-    height: 3.125rem;
+    height: 2rem;
     padding: 0.75rem 1.25rem;
     margin: 1.25rem 0;
+    font-size: 20px;
 }
 
 li {
     list-style-type: none;
+}
+
+.dropdown {
+    width: 40rem;
+    height: 4rem;
+}
+
+.selected {
+    font-size: 30px;
+}
+
+.titles {
+    font-size: 1.5rem;
 }
 
