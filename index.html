@@ -17,22 +17,22 @@
       <form id="survey-form">
         <ul>
           <li>
-            <label for="name" id="name-label">name<br></label>
-            <input type="text" id="name" class="input" placeholder="enter your full name" required</input>
+            <label for="name" class="form-label" id="name-label">name<br></label>
+            <input type="text" id="name" class="input" placeholder="enter your full name" required   minlength="1" maxlength="50" size="20"</input>
           </li>
           <li>
-            <label for="email" id="email-label">email<br></label>
+            <label for="email" class="form-label" id="email-label">email<br></label>
             <input type ="email" id="email" class="input" placeholder="enter a valid email" required </input>
           </li>
 
           </li>
           <li>
-            <label for="number" id="number-label" >age<br></label>
+            <label for="number" class="form-label" id="number-label">age<br></label>
             <input type="number"   id="number" class="input" placeholder="enter your age"  min="3" max="110" required </input>
           </li>
-          <p>Which option best describes your current profile?</p>
-          <select id="dropdown">
-            <option selected="selected">Select current profile</option>
+          <p class="drop-down-title">Which option best describes your current profile?</p>
+          <select id="dropdown" class="drop-down">
+            <option selected="selected" class="selected">Select current profile</option>
             <option>student </option>
             <option>unemployed </option>
             <option>employed </option>
@@ -41,9 +41,9 @@
             <option>full-time learner</option>
             <option>other</option>
           </select>
-          <p>How many hours per week do you spend on Codewars?</p>
-          <select id="dropdown2">
-            <option selected="selected">Select how many hours</option>
+          <p class="drop-down-title">How many hours per week do you spend on Codewars?</p>
+          <select id="dropdown2" class="drop-down">
+            <option selected="selected" class="selected">Select how many hours</option>
             <option>00-05</option>
             <option>05-10</option>
             <option>10-15</option>
@@ -62,7 +62,7 @@
             <option>80-85</option>
             <option>over 80</option>
           </select>
-          <p>Do you think you may be addicted to Codewars?</p>
+          <p class="drop-down-title">Do you think you may be addicted to Codewars?</p>
           <div>
             <input type="radio" id="yes" name="question1" value="yes">
             <label for="yes">Yes</label>
@@ -80,9 +80,9 @@
             <label for="Not sure">Not sure</label>
           </div>
           <div>
-            <p> Chose from the following options that describes your Codewars habbits<br> <font size="2"> (Check all that apply)</font><p>
+            <p class="drop-down-title"> Chose from the following options that describes your Codewars habbits<br></p> <p class="apply">(Check all that apply)</p>
          </div>
-         <div>
+         <div class="check-box-questions">
            <input type="checkbox" name="Statement1" value="1"> Have you ever neglected your family duties to go on Codewars?<br>
            <input type="checkbox" name="Statement2" value="2"> Have you ever missed work or an appointment to go on Codewars ?</br>
            <input type="checkbox" name="Statement3" value="3"> Do you sleep less that 6 hours per night to make more time for Codewars?</br>
@@ -93,7 +93,7 @@
            <input type="checkbox" name="Statement8" value="8"> Do you get slightly obsessed about your Kyu ranking on Codewars?</br>
          </div>
          <div>
-           <p> Any additional information about your Codewars habbits please let us know</p>
+           <p class="additional-information"> Any additional information about your Codewars habbits please let us know</p>
          </div>
          <textarea name="comments" id="comments" rows="8" cols="80"> Enter your comments here</textarea>
          <br> <br><button id="submit" type="submit">Submit</button>
