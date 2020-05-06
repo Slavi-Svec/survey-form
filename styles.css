@@ -30,7 +30,7 @@ body {
 #survey-form {
    font-size: 1.25rem;
    color: white;
-   width: 50rem;
+   width: 70%;
    padding: 2em;
    border: 0.0625rem solid #CCC;
    border-radius: 1em;
@@ -47,10 +47,10 @@ body {
 }
 
 .input {
-    width: 39rem;
+    width: 90%;
     height: 1.5rem;
-    padding: 0.75rem 1.25rem;
-    margin: 1.25rem 0;
+    padding: 2% 2%;
+    margin: 2% 0;
     font-size: 1rem;
     border-radius: 0.125rem;
     border:none;
@@ -58,7 +58,7 @@ body {
 }
 
 .drop-down {
-    width: 41.6rem;
+    width: 94%;
     height: 3rem;
     border:none;
     outline: none;
@@ -94,14 +94,13 @@ input[type='checkbox'] {
 }
 
 #comments {
-    width: 42rem;
+    width: 90%;
     height: 6rem;
 }
 #submit {
     width: 15rem;
     height: 3rem;
-    position: absolute;
-    bottom: 1%;
+    position: relative;
     left: 33%;
     font-size: 1.875rem;
     color: white;
