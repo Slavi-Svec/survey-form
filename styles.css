@@ -3,9 +3,6 @@ body {
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-size: cover;
-   /* -webkit-transform: scale(0.80); */
-   /* -moz-transform: scale(0.80); */
-        /* transform: scale(0.80); */
 }
 
 .main {
@@ -42,6 +39,7 @@ body {
    opacity: 0.9;
    position: relative;
    margin-bottom: 3.125rem;
+   border: 2px solid red;
 }
 
 .form-label {
@@ -50,7 +48,7 @@ body {
 
 .input {
     width: 39rem;
-    height: 1.2rem;
+    height: 1.5rem;
     padding: 0.75rem 1.25rem;
     margin: 1.25rem 0;
     font-size: 1rem;
@@ -60,11 +58,11 @@ body {
 }
 
 .drop-down {
-    width: 42rem;
+    width: 41.6rem;
     height: 3rem;
     border:none;
     outline: none;
-
+    font-size: 1rem;
 }
 
 .drop-down-title {
@@ -108,7 +106,7 @@ input[type='checkbox'] {
     font-size: 1.875rem;
     color: white;
     border-radius: 0.25rem;
-    background-color: rgb(56, 161, 56);
+    background-color: rgb(75, 174, 32);
 }
 
 li {
